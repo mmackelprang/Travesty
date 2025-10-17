@@ -12,6 +12,7 @@ public class TravestyTextGenerator
     private readonly Dictionary<string, List<char>> _chains;
     private readonly Random _random;
     private string _sourceText = string.Empty;
+    private List<string> _keys = new List<string>();
 
     /// <summary>
     /// Initializes a new instance of the TravestyTextGenerator
@@ -47,6 +48,7 @@ public class TravestyTextGenerator
 
         _sourceText = text;
         _chains.Clear();
+        _keys.Clear();
 
         // Build the Markov chain by analyzing n-grams
         for (int i = 0; i <= text.Length - _order - 1; i++)
@@ -57,6 +59,7 @@ public class TravestyTextGenerator
             if (!_chains.ContainsKey(key))
             {
                 _chains[key] = new List<char>();
+                _keys.Add(key);
             }
 
             _chains[key].Add(nextChar);
@@ -117,12 +120,12 @@ public class TravestyTextGenerator
     /// </summary>
     private string GetRandomKey()
     {
-        if (_chains.Count == 0)
+        if (_keys.Count == 0)
         {
             throw new InvalidOperationException("No chains available");
         }
 
-        int index = _random.Next(_chains.Count);
-        return _chains.Keys.ElementAt(index);
+        int index = _random.Next(_keys.Count);
+        return _keys[index];
     }
 }
