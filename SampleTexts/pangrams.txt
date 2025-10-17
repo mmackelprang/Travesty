@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. How vexingly quick daft zebras jump! Sphinx of black quartz, judge my vow. The five boxing wizards jump quickly. Jackdaws love my big sphinx of quartz. 
+
+Programming is the art of telling another human what one wants the computer to do. Computer science is no more about computers than astronomy is about telescopes. The best thing about a boolean is even if you are wrong, you are only off by a bit.
+
+There are only two hard things in Computer Science: cache invalidation and naming things. Any fool can write code that a computer can understand. Good programmers write code that humans can understand. First, solve the problem. Then, write the code.
