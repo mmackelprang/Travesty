@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1015 256">
+  <g transform="translate(0,40) scale(0.6875)">
+    <rect width="256" height="256" rx="56" fill="#5D4037"/>
+
+<rect x="54" y="90" width="58" height="58" rx="10" fill="#F5EBDD"/>
+<g stroke="#5D4037" stroke-width="7" stroke-linecap="round"><line x1="69" y1="108" x2="97" y2="108"/><line x1="83" y1="108" x2="83" y2="134"/></g>
+<rect x="98" y="108" width="58" height="58" rx="10" fill="#EFDCC8"/>
+<g stroke="#5D4037" stroke-width="7" stroke-linecap="round"><line x1="113" y1="124" x2="113" y2="152"/><line x1="141" y1="124" x2="141" y2="152"/><line x1="113" y1="138" x2="141" y2="138"/></g>
+<rect x="142" y="90" width="58" height="58" rx="10" fill="#F5EBDD"/>
+<path d="M154 122 C162 108 170 132 178 116 C182 108 188 118 190 112" fill="none" stroke="#5D4037" stroke-width="6" stroke-linecap="round"/>
+
+  </g>
+  <text x="224" y="140" font-family="Montserrat, 'Segoe UI', 'DejaVu Sans', system-ui, sans-serif" font-size="84" font-weight="700" fill="#1B1F26">Travesty</text>
+  <text x="224" y="192" font-family="Montserrat, 'Segoe UI', 'DejaVu Sans', system-ui, sans-serif" font-size="32" font-weight="500" fill="#5A6472">Statistically similar nonsense, since 1984.</text>
+</svg>
